@@ -1,0 +1,65 @@
+.userNavItem {
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.navigationName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid #D3D8DE;
+}
+
+.navigationName p {
+    font-weight: 500;
+}
+
+.thoughtsForm {
+    padding: 8px 16px 16px 16px;
+}
+
+.thoughtsForm textarea {
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid #D3D8DE;
+    border-radius: 4px;
+}
+
+.buttonSave {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    background: #5095EC;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .navigationName img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .navigationName {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .addNewPost {
+        display: none;
+    }
+
+    .userNavItem {
+        margin-bottom: 8px;
+    }
+
+}

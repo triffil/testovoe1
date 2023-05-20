@@ -1,0 +1,15 @@
+.sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.sectionName {
+    font-size: 16px;
+}
+
+.sectionActions img {
+    width: 24px;
+    height: 24px;
+}

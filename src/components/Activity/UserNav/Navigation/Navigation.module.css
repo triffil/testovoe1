@@ -1,0 +1,148 @@
+.userNavItem {
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.navigationName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid #D3D8DE;
+}
+
+.navigationName p {
+    font-weight: 500;
+}
+
+.navigationMain{
+    border-bottom: 1px solid #D3D8DE;
+}
+
+.navigationListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 20px;
+}
+
+.navigationListItem:first-child {
+    padding-top: 16px;
+}
+
+.navigationListItem:last-child {
+    padding-bottom: 16px;
+}
+
+.navigationListItem:hover {
+    background-color: yellow;
+}
+
+.listItemName {
+    display: flex;
+    align-items: center;
+}
+
+.redCircle {
+    width: 30px;
+    height: 22px;
+    border-radius: 46%;
+    background-color: red;
+}
+
+.listItemName img {
+    margin-right: 20px;
+}
+
+.listItemValue p {
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+}
+
+.greenCircle {
+    width: 30px;
+    height: 22px;
+    border-radius: 46%;
+    background-color: #47B091;
+}
+
+
+@media screen and (max-width: 900px) {
+    .navigationMain img, .navigationAdditional img {
+        display: none;
+    }
+
+    .navigationName img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navigationMain img, .navigationAdditional img {
+        display: none;
+    }
+
+    .navigationMain, .navigationAdditional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listItemName p {
+        font-size: 12px;
+    }
+
+    .navigationName {
+        display: none;
+    }
+
+    .listItemValue {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .listItemName p {
+        display: none;
+    }
+
+    .navigationMain img, .navigationAdditional img {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 645px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 30px;
+    }
+
+    .userNavItem {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 20px;
+    }
+}
