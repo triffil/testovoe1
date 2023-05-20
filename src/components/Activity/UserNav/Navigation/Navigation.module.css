@@ -66,3 +66,83 @@
     border-radius: 46%;
     background-color: #47B091;
 }
+
+
+@media screen and (max-width: 900px) {
+    .navigationMain img, .navigationAdditional img {
+        display: none;
+    }
+
+    .navigationName img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navigationMain img, .navigationAdditional img {
+        display: none;
+    }
+
+    .navigationMain, .navigationAdditional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listItemName p {
+        font-size: 12px;
+    }
+
+    .navigationName {
+        display: none;
+    }
+
+    .listItemValue {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .listItemName p {
+        display: none;
+    }
+
+    .navigationMain img, .navigationAdditional img {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 645px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 30px;
+    }
+
+    .userNavItem {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navigationListItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 20px;
+    }
+}

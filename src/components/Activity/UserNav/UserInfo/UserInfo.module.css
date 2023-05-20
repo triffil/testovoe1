@@ -32,3 +32,75 @@
 .userInfoSocial img:first-child, .userInfoSocial img:nth-child(2) {
     margin-right: 5px;
 }
+
+
+@media screen and (max-width: 1050px) {
+    .userInfoBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .userInfo {
+        padding: 16px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .userName {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .userName {
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .userName {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .userPosition {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 645px) {
+    .userInfoBody .userName, .userInfoBody .userPosition {
+        display: none;
+    }
+
+    .userInfoBody {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 585px) {
+
+    .userNavItem {
+        margin-bottom: 8px;
+    }
+
+    .userInfoSocial {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .userInfo {
+        padding: 6px 12px;
+    }
+}

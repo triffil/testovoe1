@@ -38,3 +38,28 @@
     color: white;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 900px) {
+    .navigationName img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .navigationName {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .addNewPost {
+        display: none;
+    }
+
+    .userNavItem {
+        margin-bottom: 8px;
+    }
+
+}

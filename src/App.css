@@ -45,4 +45,9 @@ img {
   .wrapper {
     margin: 0 8px;
   }
+
+  .mainWrapper {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }

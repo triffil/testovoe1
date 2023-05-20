@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.post{
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
 .closedPostInfo {
     display: flex;
     align-items: center;
@@ -13,4 +18,18 @@
 .closedPostInfo p {
     margin-left: 11px;
     margin-right: 21px;
+}
+
+@media screen and (max-width: 585px) {
+    .post {
+        margin-bottom: 10px;
+    }
+
+    .closedPost {
+        padding: 9px 16px;
+    }
+
+    .closedPostInfo img:first-child, .closedPostInfo p {
+        display: none;
+    }
 }

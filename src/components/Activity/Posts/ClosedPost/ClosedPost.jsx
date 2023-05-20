@@ -5,7 +5,7 @@ import Style from './ClosedPost.module.css'
 import opStyle from './../OpenedPost/OpenedPost.module.css'
 const ClosedPost = (props) => {
     return (
-        <div className={`${Style.closedPost} ${opStyle.post}`}>
+        <div className={`${Style.closedPost} ${Style.post}`}>
             <div>
                 <p>{props.name}</p>
             </div>

@@ -8,3 +8,22 @@
     background-color: #fff;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 900px) {
+    .openedPost {
+        padding: 28px 16px 16px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .openedPost {
+        padding: 14px 8px 8px 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .post {
+        margin-bottom: 10px;
+    }
+}
