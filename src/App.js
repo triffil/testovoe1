@@ -17,6 +17,7 @@ const App = (props) => {
                         <div className="wrapper mainWrapper">
                             <div className="content" id="content">
                                 <Routes>
+                                    <Route path='/' element={<Activity/>}/>
                                     <Route path='/activity' element={<Activity/>}/>
                                     <Route path='/map' element={<Maps/>}/>
                                     <Route path='/timer' element={<Time/>}/>
