@@ -7,19 +7,24 @@ import Maps from "./components/Maps/Maps";
 import Time from "./components/Time/Time";
 
 
+
 const App = (props) => {
     return (
         <BrowserRouter>
-            <div className="app-wrapper">
-                <Header />
-                <div className="app-wrapper-content">
-                    <Routes>
-                        <Route path='/activity' element={<Activity />}/>
-                        <Route path='/map' element={<Maps />}/>
-                        <Route path='/timer' element={<Time />} />
-                    </Routes>
+                <div className="app-wrapper">
+                    <Header/>
+                    <main className="main">
+                        <div className="wrapper mainWrapper">
+                            <div className="content" id="content">
+                                <Routes>
+                                    <Route path='/activity' element={<Activity/>}/>
+                                    <Route path='/map' element={<Maps/>}/>
+                                    <Route path='/timer' element={<Time/>}/>
+                                </Routes>
+                            </div>
+                        </div>
+                    </main>
                 </div>
-            </div>
         </BrowserRouter>
     );
 };

@@ -1,0 +1,10 @@
+.openedPost {
+    padding: 56px 32px 32px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    background-color: #fff;
+    margin-bottom: 32px;
+}

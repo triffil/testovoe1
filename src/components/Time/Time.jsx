@@ -1,9 +1,12 @@
 import React from "react";
+import Section from "./../Section/Section";
 
 
 const Time = () => {
     return (
-        <div>Time</div>
+        <div className="timerPage nonvisible">
+            <Section content={'timer'} title={'Timer'}/>
+        </div>
     );
 };
 

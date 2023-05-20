@@ -1,0 +1,16 @@
+.closedPost {
+    padding: 18px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closedPostInfo {
+    display: flex;
+    align-items: center;
+}
+
+.closedPostInfo p {
+    margin-left: 11px;
+    margin-right: 21px;
+}

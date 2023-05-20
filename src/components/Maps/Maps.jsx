@@ -1,10 +1,12 @@
 import React from "react";
+import Style from './Maps.module.css'
+import Section from "./../Section/Section";
 
-
-
-const Maps = () => {
+const Maps = (props) => {
     return (
-        <div>Maps</div>
+        <div className={Style.mapPage}>
+            <Section content={'map'} title={'Basic map'}/>
+        </div>
     );
 };
 

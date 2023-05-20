@@ -1,0 +1,48 @@
+.postCommentAuthor {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.postCommentAuthor img {
+    margin-right: 10px;
+}
+
+.postCommentAuthor span {
+    color: #5095EC;
+}
+
+.postCommentContent {
+    border-left: 2px solid #D3D8DE;
+    padding-left: 8px;
+    margin-bottom: 18.5px;
+}
+
+.postCommentBody {
+    margin-bottom: 16px;
+}
+
+.postCommentInfo {
+    color: #8F8F8F;
+}
+
+.postStatistics {
+    display: flex;
+    align-items: center;
+}
+
+.postViews {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.postComments {
+    display: flex;
+    align-items: center;
+}
+.postStatistics img {
+    margin-right: 8px;
+}
